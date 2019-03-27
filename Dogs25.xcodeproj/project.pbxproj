@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF250A7C224C0D3700C138F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF250A7B224C0D3700C138F8 /* AppDelegate.m */; };
+		AF250A82224C0D3700C138F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF250A80224C0D3700C138F8 /* Main.storyboard */; };
+		AF250A84224C0D3800C138F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF250A83224C0D3800C138F8 /* Assets.xcassets */; };
+		AF250A87224C0D3800C138F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF250A85224C0D3800C138F8 /* LaunchScreen.storyboard */; };
+		AF250A8A224C0D3800C138F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF250A89224C0D3800C138F8 /* main.m */; };
+		AFBEFB2E224C122B007BB89F /* HJHBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEFB2D224C122B007BB89F /* HJHBreed.m */; };
+		AFBEFB31224C125F007BB89F /* HJHSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEFB30224C125F007BB89F /* HJHSubBreed.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF250A77224C0D3700C138F8 /* Dogs25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogs25.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF250A7A224C0D3700C138F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF250A7B224C0D3700C138F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF250A81224C0D3700C138F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF250A83224C0D3800C138F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF250A86224C0D3800C138F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF250A88224C0D3800C138F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF250A89224C0D3800C138F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFBEFB2C224C122B007BB89F /* HJHBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHBreed.h; sourceTree = "<group>"; };
+		AFBEFB2D224C122B007BB89F /* HJHBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHBreed.m; sourceTree = "<group>"; };
+		AFBEFB2F224C125F007BB89F /* HJHSubBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHSubBreed.h; sourceTree = "<group>"; };
+		AFBEFB30224C125F007BB89F /* HJHSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHSubBreed.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF250A74224C0D3700C138F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF250A6E224C0D3700C138F8 = {
+			isa = PBXGroup;
+			children = (
+				AF250A79224C0D3700C138F8 /* Dogs25 */,
+				AF250A78224C0D3700C138F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF250A78224C0D3700C138F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF250A77224C0D3700C138F8 /* Dogs25.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF250A79224C0D3700C138F8 /* Dogs25 */ = {
+			isa = PBXGroup;
+			children = (
+				AF250A94224C0D8700C138F8 /* Model */,
+				AF250A93224C0D7B00C138F8 /* Model Controllers */,
+				AF250A92224C0D6C00C138F8 /* View Controllers */,
+				AF250A91224C0D6300C138F8 /* Storyboards */,
+				AF250A90224C0D5700C138F8 /* Resources */,
+			);
+			path = Dogs25;
+			sourceTree = "<group>";
+		};
+		AF250A90224C0D5700C138F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF250A7A224C0D3700C138F8 /* AppDelegate.h */,
+				AF250A7B224C0D3700C138F8 /* AppDelegate.m */,
+				AF250A83224C0D3800C138F8 /* Assets.xcassets */,
+				AF250A85224C0D3800C138F8 /* LaunchScreen.storyboard */,
+				AF250A88224C0D3800C138F8 /* Info.plist */,
+				AF250A89224C0D3800C138F8 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF250A91224C0D6300C138F8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AF250A80224C0D3700C138F8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AF250A92224C0D6C00C138F8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AF250A93224C0D7B00C138F8 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		AF250A94224C0D8700C138F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFBEFB2C224C122B007BB89F /* HJHBreed.h */,
+				AFBEFB2D224C122B007BB89F /* HJHBreed.m */,
+				AFBEFB2F224C125F007BB89F /* HJHSubBreed.h */,
+				AFBEFB30224C125F007BB89F /* HJHSubBreed.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF250A76224C0D3700C138F8 /* Dogs25 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF250A8D224C0D3800C138F8 /* Build configuration list for PBXNativeTarget "Dogs25" */;
+			buildPhases = (
+				AF250A73224C0D3700C138F8 /* Sources */,
+				AF250A74224C0D3700C138F8 /* Frameworks */,
+				AF250A75224C0D3700C138F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dogs25;
+			productName = Dogs25;
+			productReference = AF250A77224C0D3700C138F8 /* Dogs25.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF250A6F224C0D3700C138F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hannah Hoff";
+				TargetAttributes = {
+					AF250A76224C0D3700C138F8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = AF250A72224C0D3700C138F8 /* Build configuration list for PBXProject "Dogs25" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF250A6E224C0D3700C138F8;
+			productRefGroup = AF250A78224C0D3700C138F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF250A76224C0D3700C138F8 /* Dogs25 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF250A75224C0D3700C138F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF250A87224C0D3800C138F8 /* LaunchScreen.storyboard in Resources */,
+				AF250A84224C0D3800C138F8 /* Assets.xcassets in Resources */,
+				AF250A82224C0D3700C138F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF250A73224C0D3700C138F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF250A8A224C0D3800C138F8 /* main.m in Sources */,
+				AFBEFB2E224C122B007BB89F /* HJHBreed.m in Sources */,
+				AFBEFB31224C125F007BB89F /* HJHSubBreed.m in Sources */,
+				AF250A7C224C0D3700C138F8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF250A80224C0D3700C138F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF250A81224C0D3700C138F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF250A85224C0D3800C138F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF250A86224C0D3800C138F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF250A8B224C0D3800C138F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF250A8C224C0D3800C138F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF250A8E224C0D3800C138F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5VMA54SBQ;
+				INFOPLIST_FILE = "$(SRCROOT)/Dogs25/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hannahhoff.Dogs25;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF250A8F224C0D3800C138F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5VMA54SBQ;
+				INFOPLIST_FILE = "$(SRCROOT)/Dogs25/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hannahhoff.Dogs25;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF250A72224C0D3700C138F8 /* Build configuration list for PBXProject "Dogs25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF250A8B224C0D3800C138F8 /* Debug */,
+				AF250A8C224C0D3800C138F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF250A8D224C0D3800C138F8 /* Build configuration list for PBXNativeTarget "Dogs25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF250A8E224C0D3800C138F8 /* Debug */,
+				AF250A8F224C0D3800C138F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF250A6F224C0D3700C138F8 /* Project object */;
+}
