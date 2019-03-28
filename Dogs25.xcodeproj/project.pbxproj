@@ -14,6 +14,10 @@
 		AF250A8A224C0D3800C138F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF250A89224C0D3800C138F8 /* main.m */; };
 		AFBEFB2E224C122B007BB89F /* HJHBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEFB2D224C122B007BB89F /* HJHBreed.m */; };
 		AFBEFB31224C125F007BB89F /* HJHSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEFB30224C125F007BB89F /* HJHSubBreed.m */; };
+		AFBEFB34224C23E2007BB89F /* HJHBreedController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEFB33224C23E2007BB89F /* HJHBreedController.m */; };
+		AFC4D205224D61F500AEF25E /* BreedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4D204224D61F500AEF25E /* BreedTableViewController.swift */; };
+		AFC4D207224D622B00AEF25E /* BreedImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4D206224D622B00AEF25E /* BreedImageCollectionViewController.swift */; };
+		AFC4D209224D626700AEF25E /* SubbreedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4D208224D626700AEF25E /* SubbreedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,12 @@
 		AFBEFB2D224C122B007BB89F /* HJHBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHBreed.m; sourceTree = "<group>"; };
 		AFBEFB2F224C125F007BB89F /* HJHSubBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHSubBreed.h; sourceTree = "<group>"; };
 		AFBEFB30224C125F007BB89F /* HJHSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHSubBreed.m; sourceTree = "<group>"; };
+		AFBEFB32224C23E2007BB89F /* HJHBreedController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHBreedController.h; sourceTree = "<group>"; };
+		AFBEFB33224C23E2007BB89F /* HJHBreedController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHBreedController.m; sourceTree = "<group>"; };
+		AFC4D203224D61F400AEF25E /* Dogs25-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dogs25-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFC4D204224D61F500AEF25E /* BreedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTableViewController.swift; sourceTree = "<group>"; };
+		AFC4D206224D622B00AEF25E /* BreedImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImageCollectionViewController.swift; sourceTree = "<group>"; };
+		AFC4D208224D626700AEF25E /* SubbreedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubbreedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,10 @@
 		AF250A92224C0D6C00C138F8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AFC4D204224D61F500AEF25E /* BreedTableViewController.swift */,
+				AFC4D203224D61F400AEF25E /* Dogs25-Bridging-Header.h */,
+				AFC4D206224D622B00AEF25E /* BreedImageCollectionViewController.swift */,
+				AFC4D208224D626700AEF25E /* SubbreedTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -101,6 +115,8 @@
 		AF250A93224C0D7B00C138F8 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AFBEFB32224C23E2007BB89F /* HJHBreedController.h */,
+				AFBEFB33224C23E2007BB89F /* HJHBreedController.m */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -147,6 +163,7 @@
 				TargetAttributes = {
 					AF250A76224C0D3700C138F8 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -186,8 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBEFB34224C23E2007BB89F /* HJHBreedController.m in Sources */,
 				AF250A8A224C0D3800C138F8 /* main.m in Sources */,
+				AFC4D205224D61F500AEF25E /* BreedTableViewController.swift in Sources */,
+				AFC4D207224D622B00AEF25E /* BreedImageCollectionViewController.swift in Sources */,
 				AFBEFB2E224C122B007BB89F /* HJHBreed.m in Sources */,
+				AFC4D209224D626700AEF25E /* SubbreedTableViewController.swift in Sources */,
 				AFBEFB31224C125F007BB89F /* HJHSubBreed.m in Sources */,
 				AF250A7C224C0D3700C138F8 /* AppDelegate.m in Sources */,
 			);
@@ -331,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5VMA54SBQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Dogs25/Resources/Info.plist";
@@ -340,6 +362,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hannahhoff.Dogs25;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dogs25/View Controllers/Dogs25-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -348,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5VMA54SBQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Dogs25/Resources/Info.plist";
@@ -357,6 +383,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hannahhoff.Dogs25;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dogs25/View Controllers/Dogs25-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

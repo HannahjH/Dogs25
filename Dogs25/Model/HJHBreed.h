@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HJHBreed : NSObject
 
 @property (nonatomic, copy, readonly)NSString *name;
-@property (nonatomic, copy, readonly)NSArray<HJHBreed *> *subBreeds;
+@property (nonatomic, copy, readonly)NSArray *subBreeds;
 @property (nonatomic, copy, readonly)NSArray<NSString *> *imageUrl;
 
--(instancetype)initWithName:(NSString *)name subBreeds:(NSArray <HJHBreed *> *)subBreeds imageUrl:(NSArray <NSString *> *)imageUrl;
+-(instancetype)initWithName:(NSString *)name subBreeds:(NSArray *)subBreeds imageUrl:(NSArray <NSString *> *)imageUrl;
 
 
 @end

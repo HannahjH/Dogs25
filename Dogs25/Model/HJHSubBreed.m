@@ -13,10 +13,12 @@
 -(instancetype)initWithsubBreedName:(NSString *)subBreedName imageUrl:(NSArray<NSString *> *)imageUrl
 {
     self = [super init];
+    if(self){
     _subBreedName = subBreedName;
     _imageUrl = imageUrl;
 }
-return self;
+    return self;
+}
 
 
 @end

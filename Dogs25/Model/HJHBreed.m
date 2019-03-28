@@ -7,10 +7,11 @@
 //
 
 #import "HJHBreed.h"
+#import "HJHSubBreed.h"
 
 @implementation HJHBreed
 
--(instancetype)initWithName:(NSString *)name subBreeds:(NSArray<HJHBreed *> *)subBreeds imageUrl:(NSArray<NSString *> *)imageUrl
+-(instancetype)initWithName:(NSString *)name subBreeds:(NSArray *)subBreeds imageUrl:(NSArray<NSString *> *)imageUrl
 {
     self = [super init];
     if(self) {
